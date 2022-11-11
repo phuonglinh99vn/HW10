@@ -12,7 +12,7 @@ public class MinimumGap {
 //			for (int j = i + 1; j < array.length; j++) {
 //				if (array[i] == array[j] && minGap > j - i) {
 //					minGap = j - i;
-					break;
+//					break;
 //				}
 //			}
 //0(N)				
@@ -39,6 +39,7 @@ public class MinimumGap {
 		}
 		return minGap;
 	}
+	
 	
 }
 
