@@ -19,7 +19,7 @@ public class MinimumGap {
 		int[] arrGap = new int[10000];
 		int[] index = new int[10000];		
 		for (int j = 0; j < arrGap.length; j++) {
-			arrGap[j] = array.length - 1;
+			arrGap[j] = array.length;
 		}	
 		for (int i = 0; i < array.length; i++) {
 			if (index[array[i]] != 0) {
