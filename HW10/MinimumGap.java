@@ -7,14 +7,14 @@ public class MinimumGap {
 	public static void main(String[] args) {
 		int[] array = new int[] { 7, 5, 4, 7, 7, 5 };
 		
-// O2^N
+// ON^2
 //		for (int i = 0; i < array.length; i++) {
 //			for (int j = i + 1; j < array.length; j++) {
 //				if (array[i] == array[j]) {
 //					minGap = j - i;
 //				}
 //			}
-//				
+//0(N)				
 		
 		int[] arrGap = new int[10000];
 		int[] index = new int[10000];		
